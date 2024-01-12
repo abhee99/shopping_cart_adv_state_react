@@ -5,8 +5,7 @@ export default function Product({
   image,
   title,
   price,
-  description,
-  onAddToCart,
+  description
 }) {
   const {addItemToCart} = useContext(CartContext);
   return (
