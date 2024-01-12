@@ -5,7 +5,7 @@ import { CartContext } from '../store/shopping-cart-context.jsx';
 import { useContext } from 'react';
 
 export default function Header() {
-  const {items} = useContext(CartContext);
+  const { items } = useContext(CartContext);
   const modal = useRef();
 
   const cartQuantity = items.length;
